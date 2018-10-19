@@ -9,18 +9,16 @@
 </head>
 <body>
   <main>
-    <h1>Connect 4</h1>
-    <button id="play" class="btn play-btn">Play Again</button>
-    <button id="change-player" class="btn cp-btn">Change Player</button>
+    <h3>Connect 4</h3>
+    <button id="play-again" class="btn play-btn" disabled>Play Again</button>
+    <button id="undo" class="btn undo-btn">Undo</button>
     <div id="game-area" class="game-area">
       <div class="text-area">
-        <span id="players-turn"></span>
         <span id="win-msg"></span>
       </div>
       <div class="board-area">
         <div id="token-hover-area" class="token-hover-area"></div>
-        <div id="board" class="board">
-        </div>
+        <div id="board" class="board"></div>
       </div>
     </div>
   </main>
